@@ -1,0 +1,28 @@
+This is a mpp plugin for Edge2.
+
+It is based on the following plugins:
+
+rockchip-mpp_1.5.0-1_arm64
+├─usr
+|  ├─share
+|  ├─lib
+|  |  ├─aarch64-linux-gnu
+|  |  |         ├─librockchip_mpp.so   -> librockchip_mpp.so.1
+|  |  |         ├─librockchip_mpp.so.0  # sync from rockchipSDK/debian/packages/arm64/mpp/librockchip-mpp1_*arm64.deb
+|  |  |         ├─librockchip_mpp.so.1 -> librockchip_mpp.so.0
+|  |  |         ├─librockchip_vpu.so   -> librockchip_vpu.so.1
+|  |  |         ├─librockchip_vpu.so.0  # sync from rockchipSDK/debian/packages/arm64/mpp/librockchip-vpu0_*arm64.deb
+|  |  |         └librockchip_vpu.so.1  -> librockchip_vpu.so.0
+
+rockchip-mpp-dev_1.5.0-9_arm64          # all sync from rockchipSDK/debian/packages/arm64/mpp/librockchip-mpp-dev_*arm64.deb
+├─usr
+|  ├─share
+|  ├─lib
+|  ├─include
+
+rockchip-mpp-sample_1.5.0-9_arm64
+├─usr
+|  ├─share
+|  |   ├─rockchip-mpp                   # all sync from rockchipSDK/external/mpp
+|  |   ├─doc
+|  ├─bin                                # all sync from rockchipSDK/debian/packages/arm64/mpp/rockchip-mpp-demos_1.5.0-1_arm64.deb 
